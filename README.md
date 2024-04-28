@@ -1,6 +1,6 @@
 # Фреймворки Flask и FastAPI
 ***
-## [Знакомство с Flask](.\l_1_getting_to_know_flask\README.md)
+## [Знакомство с Flask](/l_1_getting_to_know_flask/README.md)
 ***
   * ### Виртуальное окружение
   * ### Установка Flask и обязательных компонентов
