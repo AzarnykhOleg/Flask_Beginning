@@ -1,0 +1,24 @@
+from flask import Flask
+from flask import render_template
+
+
+app = Flask(__name__)
+
+
+@app.route('/')
+def index():
+    return 'Hi!'
+
+
+@app.route('/if/')
+def show_if():
+    context = {
+            'title': 'Ветвление',
+            'user': 'Хакер',
+            'number': 6
+            }
+    return render_template('show_if.html', **context)
+
+
+if __name__ == '__main__':
+    app.run(debug=True)
