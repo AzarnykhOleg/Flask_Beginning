@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+>>>>>>> 32a98fe227a922ad9daaff13f30f84b736dcc277
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -121,11 +132,18 @@ celerybeat.pid
 
 # Environments
 .env
+<<<<<<< HEAD
 venv/env.py
 *.env
 .venv
 env.env/
 venv/
+=======
+.venv
+env/
+venv/
+ENV/
+>>>>>>> 32a98fe227a922ad9daaff13f30f84b736dcc277
 env.bak/
 venv.bak/
 
@@ -143,7 +161,10 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+<<<<<<< HEAD
 home.ico
+=======
+>>>>>>> 32a98fe227a922ad9daaff13f30f84b736dcc277
 
 # Pyre type checker
 .pyre/
@@ -159,6 +180,7 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+<<<<<<< HEAD
 .idea/
 /loggs/critical.log
 /loggs/error.log
@@ -166,4 +188,7 @@ cython_debug/
 /.env
 /notes.ipynb
 /notes.md
+=======
+.idea/*
+>>>>>>> 32a98fe227a922ad9daaff13f30f84b736dcc277
 
